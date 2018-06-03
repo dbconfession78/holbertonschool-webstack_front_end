@@ -1,0 +1,5 @@
+/* 5-nested_child.scss */
+$tc: #3D3D3D;
+$first-color: #FF0000;
+
+body { color: $tc; >.red  {color: $first-color; } }
