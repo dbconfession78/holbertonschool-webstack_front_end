@@ -1,6 +1,7 @@
 /* Color variable */
+$color: #3D3D3D; 
 body {
-	 color: #3D3D3D; }
+	 color: $color; }
 
 p {
-  color: #3D3D3D; }
+  color: $color; }
