@@ -1,0 +1,4 @@
+/* 3-nested_tag.scss */
+$none: 0px;
+$p-margin: 10px;
+body { margin: $none; p { margin: $p-margin;} padding: $none; }
