@@ -1,0 +1,4 @@
+/* 6-nested_hover.scss */
+$but: # FF0000;
+
+button {color: $but; :hover {color: #00FF00; } }
