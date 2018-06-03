@@ -2,4 +2,4 @@
 $but: #FF0000;
 $hov: #00FF00;
 
-button {color: $but; :hover {color: $hov; } }
+button {color: $but; &:hover {color: $hov; } }
