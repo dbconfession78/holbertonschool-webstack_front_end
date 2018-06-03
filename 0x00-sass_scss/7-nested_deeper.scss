@@ -1,0 +1,6 @@
+/* 7-nested_deeper.scss */
+$fs: 14px;
+$h1-fs: 16px;
+$sm-h1-fs: 12px;
+
+body { font-size: $fs;  h1 {font-size: $h1-fs; } h1.smaller {font-size: $sm-h1-fs; } }
