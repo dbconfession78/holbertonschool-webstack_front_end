@@ -1,0 +1,5 @@
+/* 4-nested_class.scss */
+$tc: #3D3D3D;
+$color-red: #FF0000;
+
+body { color: $tc; .red { color: $color-red; } } 
