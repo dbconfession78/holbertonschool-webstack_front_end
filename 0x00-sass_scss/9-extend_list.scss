@@ -1,0 +1,9 @@
+/* 9-extend_list.scss */
+
+$info_size: 12px;
+$succ-color: #00FF00;
+$warn-color: #FF0000;
+
+.info { font-size: $info-size; }
+.success { @extend .info; color: $succ-color; }
+.warning { @extend .info; color:  $warn-color; }
