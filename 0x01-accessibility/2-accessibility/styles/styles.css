@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 40px;
+}
+
+header {
+    font-size: 3em;
+    padding: 20px 0px;
+    border-bottom: 2px solid #FF0FFF;
+    text-align: center;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+	background: #e00;
+    border: 2px solid #FF0000;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*** ***/
+
+.main {
+/*	border: 1px solid blue; */
+	margin-top: 40px;
+	text-align: center;
+	min-width: 400px;
+}
+
+.row {
+	display: flex;
+	align-items: center; 
+	justify-content: left;
+/* 	border: 1px solid red; */
+}
+
+.col {
+	height: 100%;
+/*	border: 1px solid green; */
+}
+
+/*  row 1 */
+.row:nth-child(1) {
+	height: 40px;
+	background: #3f3f3f;
+	color: #FFFFFF;
+	line-height: 45px;
+	font-weight: bold;
+}
+
+/* all rows; col 1 */
+.row .col:nth-child(1) {
+	width: 40%;
+	min-width: 150px;
+}
+
+/* all rows; col 2 */
+.row .col:nth-child(2) {
+	width: 20%;
+	min-width: 150px;
+}
+
+/* all rows; col 3 */
+.row .col:nth-child(3) {
+	width: 20%;
+}
+
+
+/* col 1 of all rows except first */
+.row:nth-child(n+2) .col:nth-child(1) {
+	font-size: 2em;
+}
+
+/* col 2 of all rows except first */
+.row:nth-child(n+2) .col:nth-child(2) {
+	flex: 1;
+}
+
+/* col 3 of all rows except first */
+.row:nth-child(n+2) .col:nth-child(3) {
+/*	flex: 1; */
+	font-size: 1em;
+}
+
+/* button: col 4 (includes first row)  */
+.col:nth-child(4) {
+	flex: 1;
+}
