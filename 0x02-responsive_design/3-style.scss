@@ -1,0 +1,19 @@
+/* Background color variable */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+@media screen and (max-width: 900px) and (max-height: 900px) {
+  img {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 600px) and (max-height: 600px) {
+  img {
+    width: 49%; } }
+
+@media screen and (max-width: 300px) and (max-height: 300px) {
+  img {
+    width: 100%; } }
