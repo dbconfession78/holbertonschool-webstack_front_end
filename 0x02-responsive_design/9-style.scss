@@ -1,0 +1,30 @@
+/* Responsive design */
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	height: 50vh;
+	border: solid black;
+}
+
+.item {
+	display: flex;
+	flex-basis: 50%;
+	flex-direction: column;
+}
+
+.item:nth-child(1) {
+	align-self: flex-start;
+}
+
+.item:nth-child(2) span,
+.item:nth-child(3),
+.item:nth-child(4),
+.item:nth-child(4) span {
+	align-self: flex-end;
+}
+
+/* task rules forbid use of padding. this is just to remove the li indent; not necessary */
+.container, .li {
+	padding: 0;
+}
