@@ -1,0 +1,21 @@
+/* Responsive design */
+.container {
+		   display: flex;
+		   flex-flow: row wrap;
+		   color: white;
+}
+
+.box1 {
+	  flex-basis: 100%;
+	  background-color: #FF0000;
+}
+
+.box2 {
+	  flex-basis: 33%;
+	  background-color: #00FF00;
+}
+
+.box3 {
+	  flex-grow: 1;
+	  background-color: #0000FF;
+}
