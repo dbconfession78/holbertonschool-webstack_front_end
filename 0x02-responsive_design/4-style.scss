@@ -1,0 +1,13 @@
+/* Responsive heading */
+h1.mobile {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		display: none;
+	}
+	h1.mobile {
+		display: flex;
+	}
+}
