@@ -1,0 +1,20 @@
+/* Responsive design */
+.container {
+		   display: flex;
+		   flex-flow: row wrap;
+		   justify-content: center;
+		   align-items: center;
+}
+
+.item {
+	  display: flex;
+	  align-items: center;
+	  background-color: #FF0000;
+	  height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+	   .container {
+	   		 flex-direction: column;
+	   }
+}
